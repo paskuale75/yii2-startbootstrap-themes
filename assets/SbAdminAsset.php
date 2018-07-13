@@ -26,12 +26,12 @@ class SbAdminAsset extends \p2m\assets\base\P2AssetBundle
         'published' => [
             'sourcePath' => '@vendor/p2made/yii2-startbootstrap-themes/assets/lib/sb-admin',
             'css' => [
-                'css/__THEME_NAME__.min.css',
+                'css/sb-admin.min.css',
             ],
             'js' => [
                 'js/jqBootstrapValidation.min.js', // not always used
                 'js/contact.min.js', // not always used
-                'js/__THEME_NAME__.min.js',
+                'js/sb-admin.min.js',
             ],
         ],
 
