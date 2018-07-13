@@ -38,11 +38,11 @@ NavBar::begin([
 	'brandLabel' => 'P2 Full',
 	'brandUrl' => '#',
 	'options' => [
-		'class' => 'navbar navbar-inverse navbar-fixed-top',
+		'class' => 'navbar navbar-expand-lg navbar-dark bg-dark fixed-top',
 	],
 ]);
 echo Nav::widget([
-	'options' => ['class' => 'nav navbar-nav'],
+	'options' => ['class' => 'navbar-nav navbar-sidenav'],
 	'items' => $menuItems,
 ]);
 NavBar::end();
