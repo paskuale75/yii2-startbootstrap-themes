@@ -20,7 +20,7 @@ use yii\bootstrap\Html;
 <head>
 	<?= $this->render('_head.php', []) ?>
 </head>
-<body>
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
 	<?php $this->beginBody() ?>
 
 	<?= $this->render('_navigation.php') ?>
