@@ -35,7 +35,7 @@ if (Yii::$app->user->isGuest) {
 }
 
 NavBar::begin([
-	'brandLabel' => 'P2 Full',
+	'brandLabel' => 'P2 Sb-Admin',
 	'brandUrl' => '#',
 	'options' => [
 		'class' => 'navbar navbar-expand-lg navbar-dark bg-dark fixed-top',
