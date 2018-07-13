@@ -38,6 +38,7 @@ NavBar::begin([
 	'brandLabel' => 'P2 Sb-Admin',
 	'brandUrl' => '#',
 	'options' => [
+	    'id'    => 'mainNav',
 		'class' => 'navbar navbar-expand-lg navbar-dark bg-dark fixed-top',
 	],
 ]);
